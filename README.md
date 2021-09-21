@@ -1,4 +1,4 @@
-# Civil+ (Internet Protection)
+# Extension : Civil + (Protect yourself online)
 
 > The extension checks websites before opening them for you, improve your user experience!
 
