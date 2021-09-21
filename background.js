@@ -17,7 +17,7 @@ let loadPages = (() => {
   
   let getBlockedWebsite = (() => {
     var ref = _asyncToGenerator(function* () {
-      let response = yield fetch("https://api.npoint.io/*");
+      let response = yield fetch("https://api.npoint.io/your-key");
       let data = yield response.json();
       return data;
     });
@@ -29,7 +29,7 @@ let loadPages = (() => {
   
   let getAllowedWebsite = (() => {
     var ref = _asyncToGenerator(function* () {
-      let response = yield fetch("https://api.npoint.io/*");
+      let response = yield fetch("https://api.npoint.io/your-key");
       let data = yield response.json();
       return data;
     });
@@ -41,7 +41,7 @@ let loadPages = (() => {
   
   let getBlockedHostname = (() => {
     var ref = _asyncToGenerator(function* () {
-      let response = yield fetch("https://api.npoint.io/*");
+      let response = yield fetch("https://api.npoint.io/your-key");
       let data = yield response.json();
       return data;
     });
@@ -53,7 +53,7 @@ let loadPages = (() => {
   
   let getBlockedSlugs = (() => {
     var ref = _asyncToGenerator(function* () {
-      let response = yield fetch("https://api.npoint.io/*");
+      let response = yield fetch("https://api.npoint.io/your-key");
       let data = yield response.json();
       return data;
     });
