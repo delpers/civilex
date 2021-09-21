@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Civil+ (Internet Protection)",
   "version": "2.1",
-  "description": "L'extension vérifie les sites Internet avant de les ouvrir pour vous, améliorez votre expérience utilisateur !",
+  "description": "Se protéger sur Internet.",
   "icons": {
     "48": "icons/unf-48.png",
     "96": "icons/unf-96.png"
