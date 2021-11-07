@@ -1,1 +1,142 @@
-@font-face{font-family:si-regular;src:url(../fonts/Celias.ttf) format("truetype")}@font-face{font-family:si-c-medium;src:url(../fonts/Celias-Medium.woff) format("truetype")}body,html{font-family:si-regular,sans-serif;height:auto;margin:0;overflow-y:scroll;scrollbar-width:thin;color:#fff;background:#1c1b22;width:400px;padding:0}.c_mb-32{margin-bottom:32px;display:block}.c_navigation-title{margin-top:0;display:grid;background:#24232a;padding:16px 0 16px 16px;border-radius:6px 6px 0 0;box-shadow:rgba(0,0,0,.1) 0 1px 2px 0,rgba(0,0,0,.06) 0 1px 2px 0}.c_navigation-border{margin-top:1px;border-radius:0 0 6px 6px!important}.c_navigation-css{margin-bottom:16px;display:grid;background:#24232a;padding:16px;border-radius:6px;box-shadow:rgba(0,0,0,.1) 0 1px 2px 0,rgba(0,0,0,.06) 0 1px 2px 0}.c_navigation-css a{font-size:16px;color:#fff;letter-spacing:-.32px;text-decoration:none;font-family:si-c-medium,sans-serif}.c_navigation-css span{font-size:14.5px;color:gray;text-decoration:none;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:1;letter-spacing:-.32px}.c_navigation-blue{margin-bottom:16px;display:grid;height:auto;padding:16px;border-radius:6px}.c_navigation-blue a{font-size:16px;color:#fff;letter-spacing:-.32px;text-decoration:none;font-family:si-c-medium,sans-serif}.c_navigation-blue span{font-size:14.5px;color:gray;text-decoration:none}.c_flex{display:flex;align-items:center}.c-medium{font-family:si-c-medium,sans-serif}.c_start-app{padding:24px}.civil-logo{height:25px;width:25px;margin-right:12px;background-size:cover;background-image:url(../images/opium_logo.svg)}.external-linked{height:16px;width:16px;margin-right:0;background-size:cover;background-image:url(../images/external-link.svg);float:right}.c_end-c_start-app{width:100%;font-size:14px;line-height:18px;color:gray;margin-bottom:10px;text-align:right}.blue{background-color:#4571f5ad;color:#fff}.blue h4{margin:0;color:#fff}.blue span{margin:0;color:#fff}.margin-top-32{margin-top:24px}.name{font-size:15px;margin:0;padding:0}*{scrollbar-width:thin;scrollbar-color:#4572f5 #1c1b22}a{color:#4572f5}::-webkit-scrollbar{width:12px}::-webkit-scrollbar-track{background:#4572f5}::-webkit-scrollbar-thumb{background-color:#1c1b22;border-radius:20px;border:3px solid #4572f5}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+body,
+html {
+    font-family: 'Poppins', sans-serif;  height: auto;
+  margin: 0;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  color: #fff;
+  background: #1c1b22;
+  width: 425px;
+  padding: 0;
+}
+.c_mb-32 {
+  margin-bottom: 32px;
+  display: block;
+}
+.c_navigation-title {
+  margin-top: 0;
+  display: grid;
+  background: #24232a;
+  padding: 16px 0 16px 16px;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0;
+}
+.c_navigation-border {
+  margin-top: 1px;
+  border-radius: 0 0 6px 6px !important;
+}
+.c_navigation-css {
+  margin-bottom: 16px;
+  display: grid;
+  background: #24232a;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: none;
+}
+.c_navigation-css a {
+  font-size: 16px;
+  opacity: 0.9;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+    font-family: 'Poppins', sans-serif;}
+.c_navigation-css span {
+  font-size: 15px;
+  color: gray;
+  font-weight: 400;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  letter-spacing: 0px;
+}
+.c_navigation-blue {
+  margin-bottom: 16px;
+  display: grid;
+  height: auto;
+  padding: 16px;
+  border-radius: 6px;
+}
+.c_navigation-blue a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+    font-family: 'Poppins', sans-serif;}
+.c_navigation-blue span {
+  font-size: 16px;
+  color: gray;
+  text-decoration: none;
+}
+.c_flex {
+  display: flex;
+  align-items: center;
+}
+.c-medium {
+    font-family: 'Poppins', sans-serif;}
+.c_start-app {
+  padding: 24px;
+}
+.civil-logo {
+  height: 25px;
+  width: 25px;
+  margin-right: 12px;
+  background-size: cover;
+  background-image: url(../images/opium_logo.svg);
+}
+.external-linked {
+  height: 16px;
+  width: 16px;
+  margin-right: 0;
+  background-size: cover;
+  background-image: url(../images/external-link.svg);
+  float: right;
+}
+.c_end-c_start-app {
+  width: 100%;
+  font-size: 14px;
+  line-height: 18px;
+  color: gray;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.blue {
+  background-color: #4571f5ad;
+  color: #fff;
+}
+.blue h4 {
+  margin: 0;
+  color: #fff;
+}
+.blue span {
+  margin: 0;
+  color: #fff;
+}
+.margin-top-32 {
+  margin-top: 24px;
+}
+.name {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4572f5 #1c1b22;
+}
+a {
+  color: #4572f5;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #4572f5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1c1b22;
+  border-radius: 20px;
+  border: 3px solid #4572f5;
+}

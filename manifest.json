@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Civil+ (Internet Protection)",
-  "version": "2.1",
-  "description": "Se protéger sur Internet.",
+  "version": "2.2",
+  "description": "Civil+ (Internet) supprime les entrées faisant référence à des pages présentant un contenu à risque élevé ou violent.",
   "icons": {
     "48": "icons/unf-48.png",
     "96": "icons/unf-96.png"
